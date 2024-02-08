@@ -1,0 +1,74 @@
+@font-face {
+    font-family: iransans;
+    src: url('fonts/IRANSans\ Medium.ttf');
+  }
+  @media (min-width: 300px) {
+    *{
+        font-family: iransans;
+        background-color: #121212;
+      justify-content: center;
+      align-items: center;
+        
+    }
+    .header{
+      background-color: #FFCF00;
+      height: 70px;
+      width: 100%;
+      margin-top:-10px;
+      padding-bottom: -100px;
+      padding-right: 20px;
+      margin-left: -10px;
+    }
+    .buttons{
+      padding-top: 15px;
+      direction: rtl;
+      background-color: #FFCF00;
+    }
+    .button1{
+      flex: 50%;
+      color: black;
+      background-color:white;
+      width: 44%;
+      height: 36px;
+      border-radius: 15px;
+      text-align:center;
+      float: right;
+      padding-top: 5px;
+      
+    }
+    .button2{
+      flex: 50%;
+      color: black;
+      background-color:#FFCF00;
+      width: 43%;
+      height: 32px;
+      border-radius: 15px;
+      text-align:center ;
+      border:2px solid black;
+      float: left;
+      margin-left: 20px;
+      padding-top: 5px;
+    }
+    .banner{
+      display: flex;
+    }
+  .banner img{
+  margin-top: 150px;
+  justify-content: center; 
+  padding-left: 30px;
+  padding-bottom:20px ;
+  
+}
+p{
+  direction: rtl;
+  text-align: center;
+  color: white;
+}
+.text{
+  
+  text-align: center;
+  color: #5D5D5D;
+  margin-top: -1%;
+  font-size: 14px;
+}
+  }

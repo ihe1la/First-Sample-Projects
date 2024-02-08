@@ -1,0 +1,93 @@
+@font-face {
+    font-family: iransans;
+    src: url('fonts/IRANSans\ Medium.ttf');
+  }
+  @media (min-width: 300px){
+    *{
+        font-family: iransans;
+        background-color: #121212;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Vazirmatn', sans-serif;
+    }
+    .logo img{
+        width: 20%;
+        height: 20%;
+        padding-top: 40%;
+        padding-left: 40%;
+        justify-content: center;
+        align-items: center;
+    }
+    .message{
+        padding-top: 28%;
+        
+        color:#ffcf00 ;
+        text-align: right;
+        font-size: 15px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .enteredNumber{
+        padding-top: 4%;
+        
+        color:#7C7C7C ;
+        text-align: right;
+        font-size: 13px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .change{
+        padding-top: 0em;
+        padding-right: 9px;
+        color:#027AE2 ;
+        text-align: right;
+        font-size: 10px;
+        font-weight: bold;
+    }
+    .inputs{
+        display: flex;
+        
+    }
+    #firstInput{
+        width: 11%;
+        height: 40px;
+        margin-top: 30px;
+        margin-right: 20px;
+        margin-left: 19px;
+        background-color: #ffcf00;
+        border-radius: 7px;
+        border-color: #ffcf00;
+        text-align: center;
+    }
+    #secondInput{
+        width: 11%;
+        height: 40px;
+        margin-top: 30px;
+        margin-right: 20px;
+        background-color: #ffcf00;
+        border-radius: 7px;
+        border-color: #ffcf00;
+        text-align: center;
+    }
+    #thirdInput{
+        width: 11%;
+        height: 40px;
+        margin-top: 30px;
+        margin-right: 20px;
+        background-color: #ffcf00;
+        border-radius: 7px;
+        border-color: #ffcf00;
+        text-align: center;
+    }
+    #forthInput{
+     
+        width: 11%;
+        height: 40px;
+        margin-top: 30px;
+        margin-right: 20px;
+        background-color: #ffcf00;
+        border-radius: 7px;
+        border-color: #ffcf00;
+        text-align: center;
+    } 
+  }

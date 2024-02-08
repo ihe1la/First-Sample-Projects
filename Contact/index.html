@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - youtube.com/codingnepal -->
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact Management</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="center">
+    <h1>Form</h1>
+    <div class="txt_field">
+      <input type="text" id="names">
+      <span></span>
+      <label>Name</label>
+    </div>
+    <div class="txt_field">
+      <input type="text" id="phones">
+      <span></span>
+      <label>Phone Number</label>
+    </div>
+    <div class="row">
+      <div class="signup_link">
+        <button onclick="add()">Add</button>
+      </div>
+
+   
+      <div class="signup_link">
+        <button onclick="Search()">Search</button>
+      </div>
+      <div class="signup_link">
+        <button onclick="Editt()">Edit</button>
+      </div> 
+    </div>
+
+  </div>
+  <div class="filter">
+    <table id="contacts-table">
+    </table>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

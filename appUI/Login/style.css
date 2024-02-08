@@ -1,0 +1,68 @@
+
+@font-face {
+    font-family: iransans;
+    src: url('fonts/IRANSans\ Medium.ttf');
+  }
+@media (min-width : 300px){
+    *{
+        background-color: #121212;
+        font-family: iransans;
+        justify-content: center;
+        align-items: center;
+        /* font-family: 'Vazirmatn', sans-serif; */
+        }
+        
+        .logo img{
+        width: 20%;
+        height: 20%;
+        padding-top: 40%;
+        padding-left: 40%;
+        justify-content: center;
+        align-items: center;
+        }
+        .numberSpan{
+            padding-top: 30%;
+            text-align: center;
+            color:#ffcf00 ;
+            
+            font-size: 15px;
+        }
+        .passSpan{
+            
+            padding-top: 0px;
+            padding-right: 10px;
+            color:#027AE2 ;
+            text-align: center;
+            font-size: 10px;
+        } 
+        #number{
+        width: 83%;
+        height: 45px;
+        background-color: white;
+        border-radius: 8px;
+        border-color: white;
+        margin-top: 20px;
+        align-items: center;
+        justify-content: center;
+        margin-left: 13px;
+        font-size: medium;
+        padding-left: 20px;
+        color:#7C7C7C ;
+        }
+        .codeBtn{
+            background-color:#ffcf00 ;
+            width: 90%;
+            height: 50px;
+            border-radius: 8px;
+            border-color: #ffcf00 ;
+            margin-top: 20px;
+            align-items: center;
+            justify-content: center;
+            margin-left: 14px;
+            font-size: 15px;
+            padding-left: 19px;
+            color:black ;
+            font-weight: bold;
+            text-align: center;
+        }
+}
